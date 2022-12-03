@@ -4,11 +4,37 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto,Arial,sans-serif;
+    transition: 0.5s;
 }
 
 body{
     background-color: #f1f3f6;
+    color: #172337;
 }
+
+/* code for coupan */
+
+#coupon{
+    height:200px;
+    width:400px;
+    background-color:gray;
+    margin-left: 35%;
+    position: absolute;
+    z-index: 100;
+    margin-top:5%;
+    visibility: hidden;
+    opacity: unset!important;
+}
+
+
+
+/* dark mode */
+
+.mydark{
+    background-color:black;
+    color:white;
+}
+
 
 /* Logo */
 .logo{
@@ -190,8 +216,8 @@ body{
 
 /* Information */
 .information{
-    background-color: white;
-    color: #878787;
+    /* background-color: white; */
+    /* color: #878787; */
     margin: 2% 0%;
 }
 
